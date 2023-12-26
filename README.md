@@ -15,18 +15,21 @@ DataPrepKit is a Python class designed to simplify common data preparation tasks
 
 4. **Categorical Data Encoding:**
    - Encode categorical variables into numerical representations.
-##Usage
+
+## Usage
+
 python
 Copy code
+'''
 from DataPrepKit import DataPrepKit
 
-# Example Usage
 data_prepper = DataPrepKit('data.csv')
 data_prepper.handling_missing_values(columns=['Age', 'Salary'], strategy='mean')
 summary = data_prepper.data_summary('Salary')
 encoding_df = data_prepper.categorical_data_encoding('Gender')
-##Dependencies
+'''
+## Dependencies
 Pandas
 NumPy
-##Author
+## Author
 **Seyf Eddine**
