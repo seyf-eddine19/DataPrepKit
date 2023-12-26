@@ -36,5 +36,5 @@ encoding_df = data_prepper.categorical_data_encoding('Gender')
 
 
 ## Electro Pi Task
-This project was created as part of the [Electropi Python Programming Foundation](https://electropi.ai/course-details/python-programming-foundation) course.
+This project was created as part of the [Electro Pi Python Programming Foundation](https://electropi.ai/course-details/python-programming-foundation) course.
 
