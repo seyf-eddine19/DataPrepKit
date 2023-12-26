@@ -60,16 +60,16 @@ class DataPrepKit:
                 minimum = np.min(data)
                 maximum = np.max(data)
                 # Mean
-                mean = data.mean()
+                mean = np.mean(data)
                 # Variance
-                variance = data.var()
+                variance = np.var(data)
                 # Standard Deviation
-                std_dev = data.std()
+                std_dev = np.std(data)
                 # Median
-                median = data.median()
+                median = np.median(data)
                 # Quartiles
-                q1 = data.quantile(0.25)
-                q3 = data.quantile(0.75)
+                q1 = np.percentile(data, 25)
+                q3 = np.percentile(data, 75)
 
                 print(f'statistical summaries of {column} column :')
                 print('\t Mean (Average)            :', mean)
