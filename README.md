@@ -18,18 +18,23 @@ DataPrepKit is a Python class designed to simplify common data preparation tasks
 
 ## Usage
 
-python
-Copy code
-'''
+```python
 from DataPrepKit import DataPrepKit
-
+# Example Usage
 data_prepper = DataPrepKit('data.csv')
 data_prepper.handling_missing_values(columns=['Age', 'Salary'], strategy='mean')
 summary = data_prepper.data_summary('Salary')
 encoding_df = data_prepper.categorical_data_encoding('Gender')
-'''
+```
+
 ## Dependencies
-Pandas
-NumPy
+**Pandas**
+
+**NumPy**
 ## Author
 **Seyf Eddine**
+
+
+## Electro Pi Task
+This project was created as part of the [Electropi Python Programming Foundation](https://electropi.ai/lessons/python-programming-foundation) course.
+
